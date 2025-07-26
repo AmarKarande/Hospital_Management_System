@@ -1,21 +1,52 @@
-This is a console-based Hospital Management System developed in Java that interacts with a MySQL database to manage hospital operations such as patient registration, appointment scheduling, doctor management and patient checking simple command-line interface.
+# 🏥 Hospital Management System (Console-Based in Java)
 
-The system is designed to provide basic functionalities needed in a hospital environment without a graphical user interface, making it lightweight and easy to run in any environment with Java and MySQL installed.
+A **console-based Hospital Management System** developed in **Java** that interacts with a **MySQL database** to manage hospital operations such as **patient registration**, **appointment scheduling**, and **doctor management** via a simple command-line interface.
 
-Features
-Patient Management: Add, check and view patient details.
-Doctor Management: View and check  doctor profiles.
-Appointment Scheduling: Book an appointments.
+> Lightweight, portable, and easy to run on any system with Java and MySQL installed.
 
-Console-based Menus: Completely operated through command-line inputs.
-MySQL Integration: Persistent data storage and retrieval.
-Technologies Used
-Programming Language: Java (JDK 8+ recommended)
-Database: MySQL Server 5.7+ (or compatible)
-Database Connectivity: JDBC (Java Database Connectivity)
-Build Tools: Optional (e.g., Maven or Gradle, if applicable)
-Prerequisites
-Java Development Kit (JDK) installed on your system.
-MySQL Server installed and running.
-Basic knowledge of MySQL to create database and users.
-MySQL Connector/J (JDBC driver) added to Java project's classpath.
+---
+
+## ✅ Features
+
+- **🧑‍🤝‍🧑 Patient Management**
+  - Add new patients
+  - View and check patient details
+
+- **👨‍⚕️ Doctor Management**
+  - View doctor profiles
+  - Check specialization/availability
+
+- **📅 Appointment Scheduling**
+  - Book appointments
+  - Store and manage appointment records
+
+- **🖥️ Console-Based UI**
+  - Simple and interactive command-line menu
+  - Text-based inputs and navigation
+
+- **💾 MySQL Integration**
+  - Persistent data storage with MySQL
+  - CRUD operations via **JDBC**
+
+---
+
+## 💻 Technologies Used
+
+| Component        | Technology                    |
+|------------------|-------------------------------|
+| Programming Lang | Java (JDK 8 or above)         |
+| Database         | MySQL Server 5.7+             |
+| Connectivity     | JDBC (MySQL Connector/J)      |
+| Optional Build   | Maven or Gradle (optional)    |
+
+---
+
+## ⚙️ Prerequisites
+
+- Java Development Kit (JDK 8+)
+- MySQL Server running locally
+- MySQL Connector/J (.jar added to classpath)
+- Basic MySQL knowledge (create DB, tables, users)
+
+---
+
